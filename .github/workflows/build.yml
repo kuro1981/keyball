@@ -76,20 +76,20 @@ jobs:
 
     steps:
 
-    - uses: actions/download-artifact@v3
-      with: { name: keyball39-firmwares }
+    # - uses: actions/download-artifact@v3
+    #   with: { name: keyball39-firmwares }
 
-    - uses: actions/download-artifact@v3
-      with: { name: keyball44-firmwares }
+    # - uses: actions/download-artifact@v3
+    #   with: { name: keyball44-firmwares }
 
     - uses: actions/download-artifact@v3
       with: { name: keyball61-firmwares }
 
-    - uses: actions/download-artifact@v3
-      with: { name: keyball46-firmwares }
+    # - uses: actions/download-artifact@v3
+    #   with: { name: keyball46-firmwares }
 
-    - uses: actions/download-artifact@v3
-      with: { name: one47-firmwares }
+    # - uses: actions/download-artifact@v3
+    #   with: { name: one47-firmwares }
 
     - name: List size of firmwares
       run: |
